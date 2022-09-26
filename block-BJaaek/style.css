@@ -1,0 +1,53 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-48{
+    flex: 0 1 48%;
+}
+
+/* ***** */
+
+
+.heading{
+    text-align: center;
+    margin-top: 5rem;
+}
+.box{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  border: 2px solid black;
+  text-align: center;
+}
+
+button{
+    padding: 0.7rem 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: gray;
+    background-color: aliceblue;
+    letter-spacing: 1px;
+}
