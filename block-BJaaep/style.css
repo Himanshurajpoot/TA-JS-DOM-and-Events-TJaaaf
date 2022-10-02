@@ -1,0 +1,136 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* costom-styles */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    margin: 2rem 0;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    width: 100%;
+}
+
+/* flex */
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-48{
+    flex: 0 1 48%;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+/* text */
+.center{
+    text-align: center;
+}
+
+/* margin */
+
+.margin-40{
+    margin: 2rem 0;
+}
+
+.margin-top-16{
+margin-top: 1rem;
+}
+
+.margin-top-14{
+    margin-top: 0.9rem;
+}
+
+/* font-size */
+
+.font-32{
+    font-size: 2rem;
+}
+
+.font-24{
+    font-size: 1.5rem;
+}
+
+/* **** */
+
+.flip-box{
+  background-color: #C77030;
+  padding: 2rem;
+  
+}
+
+
+
+.minibox{
+    background-color: #424242;
+    width: 160px;
+    height: 160px;
+    margin: 0.5rem ;
+    color: white;
+    font-size: 6rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
