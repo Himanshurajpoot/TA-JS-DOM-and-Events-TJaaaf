@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper and Scissor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="game container">
+        <h1 class="center heading">Rock Paper Scissors
+
+        </h1>
+        <div class="game-col">
+            <div class="flex font">
+                <h2 class="game-heading">You -</h2> 
+                <span class="you-count"> </span> 
+                <strong class="you-text"></strong>
+            </div>
+           
+            <div class="game-icon manualIcon">
+                <i class="fa-regular fa-hand-back-fist" data-set="Rock"></i>
+                <i class="fa-regular fa-hand" data-set="Paper"></i>
+                <i class="fa-regular fa-hand-scissors" data-set="Scissors"></i>
+            </div>
+        </div>
+        <div class="game-col">
+            <div class="flex font">
+                <h2 class="game-heading game-heading-2">Computer - </h2>
+                <span class="computer-count"> </span>
+                <strong class="computer-text"></strong>
+            </div>
+           
+               
+            <div class="game-icon game-icon-comp">
+                <i class="fa-regular fa-hand-back-fist" data-set="Rock"></i>
+                <i class="fa-regular fa-hand" data-set="Paper"></i>
+                <i class="fa-regular fa-hand-scissors" data-set="Scissors"></i>
+
+            </div>
+            <div class="reset-btn">
+                <i class="fa-solid fa-rotate"></i>
+            </div>
+        </div>
+        <h3 class="win-box center "></h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
