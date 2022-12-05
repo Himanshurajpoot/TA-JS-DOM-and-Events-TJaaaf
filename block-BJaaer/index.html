@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- form -->
+    <form id="myForm" class="container" action="">
+        <fieldset>
+
+            <div>
+                <label for="name">Your Name:</label>
+                <input class="width-100 " type="text" id="name" name="name" placeholder="Your Name:" required="true">
+            </div>
+            <div>
+                <label for="Email">Your Email:</label>
+                <input class="width-100 " type="text" id="email" name="email" placeholder="Your Email:" required="true">
+            </div>
+
+            <div>
+                <label for="movies">What do you Love?</label>
+                <select id="gender" name="Choose">
+                    <option value="movies">Movies</option>
+                    <option value="series">Series</option>
+                    <option value="others">Others</option>
+                </select>
+            </div>
+            <div>
+                <label class="width-100" for="color">Choose a color</label>
+                <input class="color-pic width-100" type="color" id="color" name="color">
+            </div>
+            <div>
+                <label for="range">Rate the movie Inception out of 10</label>
+                <input class="width-100 " type="range" id="range" max="10" step="1" name="range">
+            </div>
+            <div>
+                <label for="genre">Book genre you Love?</label>
+                <div>
+                    <div>
+                        <input class="hight-auto" type="radio" id="fiction" name="Book" value="fiction" checked>
+                        <label for="fiction">Fiction</label>
+                    </div>
+                    <div>
+                        <input class="hight-auto " type="radio" id="Non-fiction" name="Book" value="Non-fiction"
+                            checked>
+                        <label for="Non-Fiction">Non-Fiction</label>
+                    </div>
+                    <div>
+                        <input class="hight-auto" type="radio" id="adventure" name="Book" value="adventure" checked>
+                        <label for="adventure">Adventure</label>
+                    </div>
+                </div>
+
+            </div>
+            <div class="turms">
+                <input class="hight-auto" type="checkbox" id="terms" name="terms" required="true">
+                <label for="terms">I Agree To turms</label>
+            </div>
+
+            <button class="width-100 submit" type="submit">Submit </button>
+
+
+
+        </fieldset>
+
+    </form>
+
+    <div id="filForm" class="form-info">
+
+    </div>
+
+    <button class="close-btn">Close</button>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
