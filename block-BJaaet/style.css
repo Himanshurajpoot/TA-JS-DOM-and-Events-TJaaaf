@@ -161,7 +161,7 @@ body {
 
 /* **** */
 
-form {
+.movie-box{
     background-color: rgb(144, 173, 231);
     border-radius: 8px;
     height: 900px;
@@ -211,6 +211,6 @@ ul {
     zoom: 3.8;
 }
 
-li span {
+ span {
     cursor: pointer;
 }
