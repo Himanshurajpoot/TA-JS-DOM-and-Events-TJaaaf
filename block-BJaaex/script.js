@@ -50,6 +50,7 @@ const cardsArray = [
   },
 ];
 
+
 let timer = document.querySelector(".timer");
 let moves = document.querySelector(".moves");
 let move = document.querySelector(".move");
